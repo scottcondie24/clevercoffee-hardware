@@ -6,11 +6,1091 @@
 	(paper "A4")
 	(title_block
 		(title "ESP32 S3 Dev Module - Breakout Board")
-		(date "2026-09-30")
+		(date "2026-11-10")
 		(rev "Draft")
 		(company "CleverCoffee")
 	)
 	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector_Generic:Conn_01x03"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x03_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector_Generic:Conn_01x04"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x04_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector_Generic:Conn_01x05"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x05"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x05_1_1"
+				(rectangle
+					(start -1.27 6.35)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector_Generic:Conn_01x06"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x06"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x06_1_1"
+				(rectangle
+					(start -1.27 6.35)
+					(end 1.27 -8.89)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -2143,40 +3223,142 @@
 		)
 	)
 	(junction
-		(at 54.61 101.6)
+		(at 38.1 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "312e279e-0e44-444a-a8e2-0750be8a44c9")
+		(uuid "38a4f805-9570-4a25-8a28-7dbc5bf3ce40")
 	)
 	(junction
-		(at 38.1 137.16)
+		(at 182.88 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "953dc6cf-8059-47af-8aea-7f31c2c17e09")
+	)
+	(junction
+		(at 54.61 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b367cf1-55fe-46da-b70f-699acf9bbdf5")
+	)
+	(junction
+		(at 38.1 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c5f9a4f-9586-4738-9326-71190c4c62ed")
+	)
+	(junction
+		(at 54.61 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a779b071-69ec-414b-ab25-960308b76802")
+	)
+	(junction
+		(at 160.02 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "be402176-9c98-4b7f-9894-2cb5aedd77a2")
 	)
+	(junction
+		(at 55.88 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dfdf29bd-32c3-4c3d-8f77-333b58657be7")
+	)
+	(junction
+		(at 38.1 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e89c9475-0af7-42c0-a367-82b2dd97d814")
+	)
+	(junction
+		(at 57.15 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ffb4e612-abb5-42dc-b64e-bde93647098a")
+	)
 	(wire
 		(pts
-			(xy 38.1 78.74) (xy 44.45 78.74)
+			(xy 158.75 52.07) (xy 124.46 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0a7676d5-e3d4-4dba-9910-298b974148d4")
+		(uuid "02238093-1ee5-436d-be35-b07d8ef3a533")
 	)
 	(wire
 		(pts
-			(xy 38.1 77.47) (xy 38.1 78.74)
+			(xy 38.1 87.63) (xy 38.1 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1347c880-618a-4d90-9191-c2f63d749c8d")
+		(uuid "031bd587-943a-4acc-b64d-8eea428f6f61")
 	)
 	(wire
 		(pts
-			(xy 139.7 93.98) (xy 143.51 93.98)
+			(xy 38.1 55.88) (xy 44.45 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03a53d5c-fa6d-4b97-b75c-80cdcf00d251")
+	)
+	(wire
+		(pts
+			(xy 207.01 146.05) (xy 210.82 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06eeb2b1-c4f8-4ec3-b66f-9c006007dba2")
+	)
+	(wire
+		(pts
+			(xy 207.01 151.13) (xy 210.82 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08ed54a5-e8a4-4daa-8494-708fe57f5c76")
+	)
+	(wire
+		(pts
+			(xy 144.78 67.31) (xy 160.02 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09256ea2-055c-4e3c-8872-e1792d0a6fa3")
+	)
+	(wire
+		(pts
+			(xy 34.29 58.42) (xy 57.15 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c2a1097-81d3-48f8-bf5c-ff929de8cf38")
+	)
+	(wire
+		(pts
+			(xy 44.45 52.07) (xy 38.1 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17c27323-6ded-482e-8c36-d170be0f91a3")
+	)
+	(wire
+		(pts
+			(xy 148.59 81.28) (xy 152.4 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2186,27 +3368,37 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 101.6) (xy 38.1 99.06)
+			(xy 69.85 24.13) (xy 76.2 24.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1fa063cb-31a9-4a62-a8c0-c6c83b16cef3")
+		(uuid "23e1829e-d27f-40d9-97ca-f16203db7fd6")
 	)
 	(wire
 		(pts
-			(xy 54.61 109.22) (xy 54.61 114.3)
+			(xy 34.29 97.79) (xy 41.91 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "21b9779e-f69e-46d3-bac6-c4fa9d44e8e6")
+		(uuid "24daa631-51ff-4136-acd4-ac45230466d9")
 	)
 	(wire
 		(pts
-			(xy 100.33 93.98) (xy 107.95 93.98)
+			(xy 55.88 77.47) (xy 55.88 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25014fb3-11e3-40ec-8a5f-67af38170e9d")
+	)
+	(wire
+		(pts
+			(xy 109.22 81.28) (xy 116.84 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2216,7 +3408,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 86.36) (xy 151.13 88.9)
+			(xy 160.02 67.31) (xy 160.02 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2226,7 +3418,77 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 104.14) (xy 151.13 104.14)
+			(xy 134.62 33.02) (xy 139.7 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2981dbf0-9ac0-4a9d-82c1-99ba15deef7c")
+	)
+	(wire
+		(pts
+			(xy 34.29 26.67) (xy 39.37 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29ce8027-2606-42b6-ba99-234776cba119")
+	)
+	(wire
+		(pts
+			(xy 110.49 128.27) (xy 116.84 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b753193-1acc-4256-8700-4ad69065803b")
+	)
+	(wire
+		(pts
+			(xy 69.85 26.67) (xy 76.2 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cf28fdf-9033-4edb-8214-1a9f64918f1c")
+	)
+	(wire
+		(pts
+			(xy 110.49 125.73) (xy 116.84 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f324b99-0c2c-45c0-82e4-63a0a294adf1")
+	)
+	(wire
+		(pts
+			(xy 87.63 160.02) (xy 102.87 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "311ef9ce-f1e3-4da9-a76c-e5ac707781de")
+	)
+	(wire
+		(pts
+			(xy 87.63 157.48) (xy 102.87 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "312af9f2-480f-43f6-aaa9-e0929e233595")
+	)
+	(wire
+		(pts
+			(xy 146.05 91.44) (xy 160.02 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2236,7 +3498,27 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 128.27) (xy 38.1 128.27)
+			(xy 44.45 71.12) (xy 38.1 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35034f7d-ab32-4a38-b003-cf34a79686a7")
+	)
+	(wire
+		(pts
+			(xy 143.51 153.67) (xy 143.51 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3579e10e-2117-4069-b13f-b5e5c440ca64")
+	)
+	(wire
+		(pts
+			(xy 153.67 171.45) (xy 160.02 171.45)
 		)
 		(stroke
 			(width 0)
@@ -2246,17 +3528,17 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 86.36) (xy 151.13 86.36)
+			(xy 34.29 24.13) (xy 40.64 24.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3871bc6c-ee1d-4e09-8aab-419fcb9b0b5f")
+		(uuid "3a835726-9154-46be-a25a-426640f29594")
 	)
 	(wire
 		(pts
-			(xy 99.06 104.14) (xy 115.57 104.14)
+			(xy 107.95 91.44) (xy 124.46 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2266,7 +3548,47 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 99.06) (xy 151.13 104.14)
+			(xy 207.01 143.51) (xy 210.82 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "408a7257-a970-4d4b-af58-2a14f05dd451")
+	)
+	(wire
+		(pts
+			(xy 182.88 25.4) (xy 186.69 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4109f464-613b-4d3c-9c6c-ba5c25f2be35")
+	)
+	(wire
+		(pts
+			(xy 156.21 58.42) (xy 154.94 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42043461-56cf-4432-ae9f-36da9b4f4f5d")
+	)
+	(wire
+		(pts
+			(xy 143.51 173.99) (xy 143.51 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46d5d96e-9252-466a-bbf3-b3da7e3b51a0")
+	)
+	(wire
+		(pts
+			(xy 160.02 86.36) (xy 160.02 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2276,7 +3598,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 128.27) (xy 38.1 137.16)
+			(xy 160.02 171.45) (xy 160.02 180.34)
 		)
 		(stroke
 			(width 0)
@@ -2286,7 +3608,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 67.31) (xy 38.1 68.58)
+			(xy 165.1 36.83) (xy 165.1 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2296,47 +3618,97 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 88.9) (xy 44.45 88.9)
+			(xy 34.29 77.47) (xy 55.88 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "55180192-dd5a-44a4-a4a5-77ab603125ef")
+		(uuid "503def40-c1de-4ece-8bf1-f25b9572e3f3")
 	)
 	(wire
 		(pts
-			(xy 44.45 101.6) (xy 38.1 101.6)
+			(xy 226.06 153.67) (xy 207.01 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "59b464be-d1c2-4acb-85d8-8b5fc6ef769f")
+		(uuid "50e81ac8-7422-4f57-b1c9-3236428dc67a")
 	)
 	(wire
 		(pts
-			(xy 115.57 86.36) (xy 115.57 88.9)
+			(xy 34.29 95.25) (xy 38.1 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6646757e-699d-4628-a296-4e3eee5955a2")
+		(uuid "54e4f28d-6d46-4db3-8826-ee6fab948f53")
 	)
 	(wire
 		(pts
-			(xy 54.61 101.6) (xy 59.69 101.6)
+			(xy 35.56 154.94) (xy 44.45 154.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "724d2a32-2183-45f9-a33a-4c6ada56dd3e")
+		(uuid "5d2f09de-9798-48fb-9649-e97cb8f0c13c")
 	)
 	(wire
 		(pts
-			(xy 52.07 68.58) (xy 59.69 68.58)
+			(xy 35.56 123.19) (xy 39.37 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6056a197-4a81-46b4-9202-4f5d12471213")
+	)
+	(wire
+		(pts
+			(xy 134.62 30.48) (xy 139.7 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60b93e69-340c-4833-88eb-1a8680c25bb6")
+	)
+	(wire
+		(pts
+			(xy 34.29 100.33) (xy 54.61 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64b61863-8f3d-4df7-bb18-5d0905cb05cf")
+	)
+	(wire
+		(pts
+			(xy 226.06 151.13) (xy 226.06 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68126c4c-9ca7-410e-b091-4d460a3f22af")
+	)
+	(wire
+		(pts
+			(xy 110.49 110.49) (xy 114.3 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a8ab671-8075-42ac-ab62-71d71a93fd2a")
+	)
+	(wire
+		(pts
+			(xy 179.07 38.1) (xy 182.88 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2346,7 +3718,37 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 128.27) (xy 114.3 128.27)
+			(xy 158.75 54.61) (xy 144.78 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76dff140-f1f0-4150-a40c-ffe0ea551fad")
+	)
+	(wire
+		(pts
+			(xy 161.29 111.76) (xy 176.53 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a0400e8-552a-451c-ac1e-aba31961264c")
+	)
+	(wire
+		(pts
+			(xy 38.1 92.71) (xy 54.61 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ae21dd5-d517-4fcb-bfbc-8ec6e72424cc")
+	)
+	(wire
+		(pts
+			(xy 153.67 151.13) (xy 158.75 151.13)
 		)
 		(stroke
 			(width 0)
@@ -2356,7 +3758,57 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 137.16) (xy 44.45 137.16)
+			(xy 35.56 125.73) (xy 53.34 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ee6984f-826e-4ce5-8e5d-46312da8ad0a")
+	)
+	(wire
+		(pts
+			(xy 52.07 71.12) (xy 55.88 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "838a93a9-5f63-4393-8944-025a2609a4ab")
+	)
+	(wire
+		(pts
+			(xy 138.43 25.4) (xy 138.43 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8769b32c-0810-4b25-a795-95087aa9cc14")
+	)
+	(wire
+		(pts
+			(xy 57.15 58.42) (xy 57.15 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "879c8165-439b-4b7d-b2c7-276cfefdf740")
+	)
+	(wire
+		(pts
+			(xy 207.01 148.59) (xy 210.82 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "896a9444-6bb8-45f5-94cf-423cfc535f5d")
+	)
+	(wire
+		(pts
+			(xy 160.02 180.34) (xy 153.67 180.34)
 		)
 		(stroke
 			(width 0)
@@ -2366,7 +3818,47 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 87.63) (xy 139.7 93.98)
+			(xy 156.21 57.15) (xy 156.21 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ec17c82-2ba7-4fe7-a14b-1ec325f19b9c")
+	)
+	(wire
+		(pts
+			(xy 34.29 74.93) (xy 38.1 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9241c97d-b5bd-430a-b4cb-1e36b129f104")
+	)
+	(wire
+		(pts
+			(xy 144.78 54.61) (xy 144.78 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9517b0e4-fcc1-4c30-9854-19abd80403fc")
+	)
+	(wire
+		(pts
+			(xy 35.56 157.48) (xy 52.07 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9578dc71-08b2-4964-9b4a-ece71062ef92")
+	)
+	(wire
+		(pts
+			(xy 148.59 74.93) (xy 148.59 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2376,7 +3868,37 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 87.63) (xy 100.33 93.98)
+			(xy 35.56 165.1) (xy 38.1 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ea2c514-b531-49b4-81ed-58a6a17dfc5d")
+	)
+	(wire
+		(pts
+			(xy 38.1 71.12) (xy 38.1 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a07a5e6a-8c82-4e88-87f8-873557e7f979")
+	)
+	(wire
+		(pts
+			(xy 87.63 162.56) (xy 90.17 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a11254af-a636-43e9-90b6-e27d24c82831")
+	)
+	(wire
+		(pts
+			(xy 109.22 74.93) (xy 109.22 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2386,7 +3908,47 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 68.58) (xy 44.45 68.58)
+			(xy 124.46 52.07) (xy 124.46 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a585f879-8f4c-4fb0-96ea-dd6bc81c17c4")
+	)
+	(wire
+		(pts
+			(xy 102.87 57.15) (xy 102.87 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6dd2194-2765-43e9-8c43-09d763d9ae9e")
+	)
+	(wire
+		(pts
+			(xy 100.33 52.07) (xy 109.22 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a81ec0b1-b1d8-4c18-b5af-5b8ef896bc43")
+	)
+	(wire
+		(pts
+			(xy 134.62 27.94) (xy 156.21 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8e057e0-07e7-445f-973b-d51ae4ad3d74")
+	)
+	(wire
+		(pts
+			(xy 165.1 38.1) (xy 171.45 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2396,17 +3958,17 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 101.6) (xy 54.61 101.6)
+			(xy 102.87 58.42) (xy 104.14 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aeba7eb3-169b-4d2e-ae50-9091f92d3ba8")
+		(uuid "b249890d-be78-49c4-9b53-3bc05295fd5a")
 	)
 	(wire
 		(pts
-			(xy 52.07 137.16) (xy 59.69 137.16)
+			(xy 146.05 180.34) (xy 143.51 180.34)
 		)
 		(stroke
 			(width 0)
@@ -2416,7 +3978,27 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 143.51) (xy 38.1 137.16)
+			(xy 52.07 52.07) (xy 57.15 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b37092ac-845d-4a6b-b96a-124dd66b8257")
+	)
+	(wire
+		(pts
+			(xy 35.56 160.02) (xy 52.07 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3a161d3-25c6-40a3-b31a-fe78927cdd8c")
+	)
+	(wire
+		(pts
+			(xy 160.02 186.69) (xy 160.02 180.34)
 		)
 		(stroke
 			(width 0)
@@ -2426,7 +4008,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 128.27) (xy 59.69 128.27)
+			(xy 146.05 171.45) (xy 143.51 171.45)
 		)
 		(stroke
 			(width 0)
@@ -2436,17 +4018,47 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 88.9) (xy 59.69 88.9)
+			(xy 158.75 57.15) (xy 156.21 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ba7d8844-07f7-4a06-883d-b97645a3ee32")
+		(uuid "b7e14789-457f-4140-ae5b-052570cec5bf")
 	)
 	(wire
 		(pts
-			(xy 93.98 128.27) (xy 101.6 128.27)
+			(xy 35.56 128.27) (xy 43.18 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8807451-045b-470d-bc23-6de624ef6db8")
+	)
+	(wire
+		(pts
+			(xy 161.29 109.22) (xy 165.1 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9116686-c66e-43c0-82cb-1835e233e626")
+	)
+	(wire
+		(pts
+			(xy 100.33 54.61) (xy 109.22 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbd842aa-47c2-40e8-bd61-4882da8f136a")
+	)
+	(wire
+		(pts
+			(xy 143.51 151.13) (xy 146.05 151.13)
 		)
 		(stroke
 			(width 0)
@@ -2456,7 +4068,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 104.14) (xy 115.57 99.06)
+			(xy 124.46 91.44) (xy 124.46 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2466,7 +4078,17 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 137.16) (xy 114.3 137.16)
+			(xy 87.63 167.64) (xy 90.17 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf4e6600-9028-48aa-be3a-dbf7233c62b9")
+	)
+	(wire
+		(pts
+			(xy 153.67 160.02) (xy 158.75 160.02)
 		)
 		(stroke
 			(width 0)
@@ -2476,7 +4098,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 137.16) (xy 101.6 137.16)
+			(xy 143.51 160.02) (xy 146.05 160.02)
 		)
 		(stroke
 			(width 0)
@@ -2486,53 +4108,123 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 87.63) (xy 38.1 88.9)
+			(xy 34.29 55.88) (xy 38.1 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c5f2b117-e8fc-4776-a761-4bfb11ba26ad")
+		(uuid "cee66302-8254-4bdf-a098-fac42e968949")
 	)
 	(wire
 		(pts
-			(xy 52.07 78.74) (xy 59.69 78.74)
+			(xy 38.1 52.07) (xy 38.1 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "eaa71c65-20d7-4ac0-bc04-688a7db6c874")
+		(uuid "cf2db57d-502f-495f-bb7a-00c14bbdf562")
 	)
 	(wire
 		(pts
-			(xy 119.38 86.36) (xy 115.57 86.36)
+			(xy 182.88 27.94) (xy 182.88 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ef75a873-2948-4703-ab88-33ecfa4d74dd")
+		(uuid "d612baa8-8cf4-40ae-8fab-14f959038864")
 	)
-	(label "LED_Brew_Pin"
-		(at 85.09 127 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
+	(wire
+		(pts
+			(xy 38.1 74.93) (xy 43.18 74.93)
 		)
-		(uuid "3e38a948-bd9d-45a2-b45f-87f386b2fd27")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0f7369e-85d4-463b-ab0a-48bdb5e64eb0")
 	)
-	(label "LED_Status_Pin"
-		(at 85.09 135.89 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
+	(wire
+		(pts
+			(xy 134.62 25.4) (xy 138.43 25.4)
 		)
-		(uuid "3ed5f067-cafe-4d86-a7c5-de6182b1ea67")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0fbb532-9191-4593-9c0b-3ea72ab7c71d")
+	)
+	(wire
+		(pts
+			(xy 35.56 162.56) (xy 38.1 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4bc46ea-ca4b-4c13-9b9c-86086ae3ced5")
+	)
+	(wire
+		(pts
+			(xy 87.63 165.1) (xy 90.17 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6e9beee-0c66-4a1a-b648-401cbdf81f64")
+	)
+	(wire
+		(pts
+			(xy 35.56 167.64) (xy 38.1 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f113c700-1c97-4c81-9c8c-b38235b55c77")
+	)
+	(wire
+		(pts
+			(xy 87.63 154.94) (xy 96.52 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3692a97-23f1-4d3b-88f1-7a383badac88")
+	)
+	(wire
+		(pts
+			(xy 69.85 29.21) (xy 76.2 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f521ce01-24fa-4924-a4b3-98076c4a24e1")
+	)
+	(wire
+		(pts
+			(xy 100.33 57.15) (xy 102.87 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbb2e1e2-4d73-42f6-9506-f7ed73044100")
+	)
+	(wire
+		(pts
+			(xy 182.88 38.1) (xy 186.69 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fde92b56-471a-4d99-9c6d-f17c5f61837c")
 	)
 	(global_label "Serial1_TX"
 		(shape input)
@@ -2560,7 +4252,7 @@
 	)
 	(global_label "LED_Status"
 		(shape input)
-		(at 114.3 137.16 0)
+		(at 158.75 160.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2570,7 +4262,79 @@
 		)
 		(uuid "09215171-c504-4b10-9a23-147f7a7df002")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127.6869 137.16 0)
+			(at 172.1369 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "SW_Steam"
+		(shape input)
+		(at 210.82 148.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "09ce9292-7a1a-4fa4-8a0c-e6fbc1d29202")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 223.2998 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "ZC"
+		(shape input)
+		(at 43.18 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0afed12c-bc2b-4616-a3ef-ea64199044ea")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 48.6447 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "HXDAT"
+		(shape input)
+		(at 90.17 162.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0dbd189e-d9ea-4bc8-a162-29cf81873707")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 99.0214 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2606,9 +4370,57 @@
 			)
 		)
 	)
+	(global_label "HXDAT2"
+		(shape input)
+		(at 38.1 165.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1665ce2a-7f1b-4c89-a9af-92e93bb03b1a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 48.1609 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Serial1_RX"
+		(shape input)
+		(at 139.7 33.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "173df370-6d2e-4374-ae31-740e07a75f82")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.8451 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "Temp1"
 		(shape input)
-		(at 59.69 88.9 0)
+		(at 43.18 74.93 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2618,7 +4430,7 @@
 		)
 		(uuid "1b20962d-7f96-4486-b094-deeecc0eb732")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 68.7832 88.9 0)
+			(at 52.2732 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2632,7 +4444,7 @@
 	)
 	(global_label "SPI_MISO"
 		(shape input)
-		(at 59.69 68.58 0)
+		(at 186.69 38.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2642,7 +4454,31 @@
 		)
 		(uuid "1cd53094-6262-45ca-b894-d3f7b7f00c07")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.3233 68.58 0)
+			(at 198.3233 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Pump2{slash}SPI_CLK"
+		(shape input)
+		(at 116.84 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1fdc1aa3-3763-40c7-a494-4c804a8604cd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 135.2465 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2691,6 +4527,30 @@
 		(uuid "2e03bd5e-8a68-482c-9e5a-0cddd01aa1ca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 272.4065 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Tank"
+		(shape input)
+		(at 39.37 26.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "30e40326-56a1-4a8e-9ac4-379441625686")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 46.6489 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2771,6 +4631,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "I2C_SDA"
+		(shape input)
+		(at 109.22 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "44ccbd2d-14b7-42ff-b466-fbbf50142833")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.8252 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -2859,6 +4743,30 @@
 		(uuid "539e2f87-7994-40e6-966a-f4cc337e77de")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 277.3051 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "I2C_SCL"
+		(shape input)
+		(at 109.22 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "541f1476-58e8-444d-9fbf-bfc539e2406d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.7647 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2966,9 +4874,33 @@
 			)
 		)
 	)
+	(global_label "Heater"
+		(shape input)
+		(at 114.3 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "687fd7e4-b938-40f2-aeee-40d2373bb76c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 123.4538 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "Flow"
 		(shape input)
-		(at 59.69 101.6 0)
+		(at 38.1 87.63 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2978,7 +4910,7 @@
 		)
 		(uuid "691a1b6e-b8d0-4778-9589-dd30abac9cc0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 66.9085 101.6 0)
+			(at 45.3185 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3086,9 +5018,33 @@
 			)
 		)
 	)
-	(global_label "I2C_SCL"
+	(global_label "HXDAT2"
 		(shape input)
-		(at 99.06 104.14 180)
+		(at 90.17 165.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "85d09cdc-56af-49e4-a736-5ce1cde95d56")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 100.2309 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "I2C_SDA"
+		(shape input)
+		(at 107.95 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3098,7 +5054,7 @@
 		)
 		(uuid "86bbc891-e4d4-4035-8006-1e1d4754c907")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.5153 104.14 0)
+			(at 97.3448 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3134,9 +5090,9 @@
 			)
 		)
 	)
-	(global_label "I2C_SDA_5V"
+	(global_label "Encoder_CLK"
 		(shape input)
-		(at 158.75 86.36 0)
+		(at 76.2 29.21 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3144,33 +5100,9 @@
 			)
 			(justify left)
 		)
-		(uuid "902fc5a8-c2c1-4e5d-9a52-17136cc967bc")
+		(uuid "931fca67-e691-4a14-a42c-e5033f714dfa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 172.6209 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "LED_Water"
-		(shape input)
-		(at 59.69 137.16 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "939ad71b-f917-4208-a0a8-81c9adbf7e3d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.2908 137.16 0)
+			(at 91.2803 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3232,7 +5164,7 @@
 	)
 	(global_label "LED_Brew"
 		(shape input)
-		(at 114.3 128.27 0)
+		(at 158.75 151.13 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3242,31 +5174,7 @@
 		)
 		(uuid "9e646f0b-b292-40c3-a6e3-b817bf2ef6d2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 126.1752 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "LED_Steam"
-		(shape input)
-		(at 59.69 128.27 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a38d8038-35f5-4702-ab91-e05823f12445")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.956 128.27 0)
+			(at 170.6252 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3302,9 +5210,81 @@
 			)
 		)
 	)
-	(global_label "I2C_SDA"
+	(global_label "SW_Brew"
 		(shape input)
-		(at 137.16 104.14 180)
+		(at 210.82 146.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a89d2ea4-0226-4409-b37c-4853b27a664a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 221.909 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "SW_Power"
+		(shape input)
+		(at 210.82 143.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b7968515-8b76-4ffc-9c90-348fa037d155")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 223.058 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "HXCLK"
+		(shape input)
+		(at 90.17 167.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b7e812d1-8a21-4272-aa16-e1c21438c38c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 99.2633 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "I2C_SCL"
+		(shape input)
+		(at 146.05 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3314,7 +5294,7 @@
 		)
 		(uuid "b897b81a-6a5a-4e40-825d-94d555d300e1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 126.5548 104.14 0)
+			(at 135.5053 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3352,6 +5332,30 @@
 	)
 	(global_label "HXDAT"
 		(shape input)
+		(at 38.1 162.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "beb4b034-a7df-42e4-8b3d-39ee77c5c8f9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 46.9514 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "HXDAT"
+		(shape input)
 		(at 264.16 59.69 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3363,6 +5367,102 @@
 		(uuid "c35a4db3-24c5-4b9d-88d7-cfbd10031497")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 273.0114 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Encoder_DT"
+		(shape input)
+		(at 76.2 26.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c5f9b8e8-e670-4f65-b428-a9a1aa9022ff")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 89.9498 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Heater2"
+		(shape input)
+		(at 116.84 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cc42343c-a64b-4de2-8ece-a10b6874cfd8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 127.2033 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Pump"
+		(shape input)
+		(at 39.37 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cf20c2fa-b2f2-42ce-89a1-6b76a678c7b5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 47.6165 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "HXCLK"
+		(shape input)
+		(at 38.1 167.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cf413fcc-d955-4218-9234-42f6efcbae3c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 47.1933 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3398,9 +5498,33 @@
 			)
 		)
 	)
+	(global_label "Serial1_TX"
+		(shape input)
+		(at 139.7 30.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d64db8e7-afa3-4f8e-b46b-ee9d43e0dfe1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.5427 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "Temp"
 		(shape input)
-		(at 59.69 78.74 0)
+		(at 44.45 55.88 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3410,7 +5534,31 @@
 		)
 		(uuid "da042dbf-32eb-4af2-8d37-cfc42a7fdade")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 67.5737 78.74 0)
+			(at 52.3337 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Encoder_SW"
+		(shape input)
+		(at 76.2 24.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "def5ef60-76e6-4c18-a561-7247698717b4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 90.3731 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3446,9 +5594,9 @@
 			)
 		)
 	)
-	(global_label "I2C_SCL_5V"
+	(global_label "SW_Water"
 		(shape input)
-		(at 119.38 86.36 0)
+		(at 210.82 151.13 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3456,9 +5604,9 @@
 			)
 			(justify left)
 		)
-		(uuid "e8141108-b429-4117-8dd1-920053fe1eae")
+		(uuid "e8b4724c-ffa8-41f0-98e6-1f3b5259795a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.1904 86.36 0)
+			(at 222.6346 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3494,9 +5642,58 @@
 			)
 		)
 	)
+	(global_label "Valve"
+		(shape input)
+		(at 165.1 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e9d101a1-5915-434b-91ba-8a7a38da2b68")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 173.0442 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "SPI_MOSI"
+		(shape input)
+		(at 186.69 25.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ff259799-2c12-4a41-b972-75e81643b144")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 198.3233 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Simulation_SPICE:0")
-		(at 38.1 143.51 0)
+		(at 160.02 186.69 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3507,7 +5704,7 @@
 		(fields_autoplaced yes)
 		(uuid "0b2c82df-0049-4454-9917-617e9a22f67b")
 		(property "Reference" "#GND05"
-			(at 38.1 148.59 0)
+			(at 160.02 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3518,7 +5715,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 38.1 140.97 0)
+			(at 160.02 184.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3528,7 +5725,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 143.51 0)
+			(at 160.02 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3539,7 +5736,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
-			(at 38.1 153.67 0)
+			(at 160.02 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3550,7 +5747,7 @@
 			)
 		)
 		(property "Description" "0V reference potential for simulation"
-			(at 38.1 151.13 0)
+			(at 160.02 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3573,8 +5770,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 38.1 99.06 0)
+		(lib_id "power:+5V")
+		(at 44.45 154.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3582,10 +5779,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1b154446-ed32-4d87-a393-a6ded849ee3b")
-		(property "Reference" "#PWR07"
-			(at 38.1 102.87 0)
+		(uuid "0e9763fb-0ff8-4646-a5f8-5b3075ec4638")
+		(property "Reference" "#PWR025"
+			(at 44.45 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3595,8 +5791,8 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 38.1 93.98 0)
+		(property "Value" "+5V"
+			(at 44.196 150.114 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3606,7 +5802,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 99.06 0)
+			(at 44.45 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3617,7 +5813,162 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 99.06 0)
+			(at 44.45 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 44.45 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7d4fece9-e17d-4970-9a01-82bf06dd4ae1")
+		)
+		(instances
+			(project "CleverCoffee_ESP32S3_Dev"
+				(path "/2be5fe1d-8984-4886-9869-574e52619ff9"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 154.94 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "12f49f68-f6b0-4485-912c-af720254e902")
+		(property "Reference" "#PWR020"
+			(at 154.94 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 151.384 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 154.94 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "98b5cf93-1b9f-4e9b-afee-2bf71cc26cf7")
+		)
+		(instances
+			(project "CleverCoffee_ESP32S3_Dev"
+				(path "/2be5fe1d-8984-4886-9869-574e52619ff9"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 53.34 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "16741e16-7572-473a-9938-a8bd433a3bce")
+		(property "Reference" "#PWR028"
+			(at 53.34 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 53.34 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3628,7 +5979,161 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 38.1 99.06 0)
+			(at 53.34 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9812ce00-ee2a-4e32-adc0-2634a9b21b87")
+		)
+		(instances
+			(project "CleverCoffee_ESP32S3_Dev"
+				(path "/2be5fe1d-8984-4886-9869-574e52619ff9"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 176.53 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "19eef547-e757-431f-9e06-355cb0e59deb")
+		(property "Reference" "#PWR030"
+			(at 176.53 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 176.022 107.442 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 176.53 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3ffc53c4-e6b1-4f1e-ac56-9127d16b5bc5")
+		)
+		(instances
+			(project "CleverCoffee_ESP32S3_Dev"
+				(path "/2be5fe1d-8984-4886-9869-574e52619ff9"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 41.91 97.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1b154446-ed32-4d87-a393-a6ded849ee3b")
+		(property "Reference" "#PWR07"
+			(at 41.91 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 41.91 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 41.91 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3723,6 +6228,94 @@
 			(project "CleverCoffee_ESP32S3_Dev"
 				(path "/2be5fe1d-8984-4886-9869-574e52619ff9"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 95.25 54.61 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2a495571-b32f-4570-9bd4-99a4c7b72154")
+		(property "Reference" "3V3I2C"
+			(at 92.71 54.6099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 92.71 57.1499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 95.25 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5d322971-c000-4cd3-8654-cc1602526326")
+		)
+		(pin "3"
+			(uuid "88dcea24-0d0c-453c-8a9b-7894ffa4b6c8")
+		)
+		(pin "4"
+			(uuid "2de8d659-0d18-4f34-91d4-d799a6aa2983")
+		)
+		(pin "2"
+			(uuid "76ad9ae4-ed2c-4a19-a24c-fb03fda68d53")
+		)
+		(instances
+			(project "CleverCoffee_ESP32S3_Dev"
+				(path "/2be5fe1d-8984-4886-9869-574e52619ff9"
+					(reference "3V3I2C")
 					(unit 1)
 				)
 			)
@@ -3937,8 +6530,87 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 34.29 60.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f3cf424-ecc7-455e-813b-eeec1a5b082f")
+		(property "Reference" "#PWR010"
+			(at 34.29 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 34.29 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 34.29 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0d013918-2a54-47fc-b925-df9da1b7a34d")
+		)
+		(instances
+			(project "CleverCoffee_ESP32S3_Dev"
+				(path "/2be5fe1d-8984-4886-9869-574e52619ff9"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
-		(at 48.26 137.16 90)
+		(at 149.86 180.34 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3949,7 +6621,7 @@
 		(fields_autoplaced yes)
 		(uuid "4169a320-5e4c-49e7-b7f1-b952aa94d273")
 		(property "Reference" "R6"
-			(at 48.26 130.81 90)
+			(at 149.86 173.99 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3959,7 +6631,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 48.26 133.35 90)
+			(at 149.86 176.53 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3969,7 +6641,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 138.938 90)
+			(at 149.86 182.118 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3980,7 +6652,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 48.26 137.16 0)
+			(at 149.86 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3991,7 +6663,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 48.26 137.16 0)
+			(at 149.86 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4017,8 +6689,265 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 29.21 77.47 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4d4a7587-bbcc-408f-bf9e-75d619e37163")
+		(property "Reference" "Temp1"
+			(at 26.67 76.1999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 26.67 78.7399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 29.21 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6df15a4a-4fdb-4edc-b191-0d06decfaaae")
+		)
+		(pin "1"
+			(uuid "7ea95dbc-0956-4c08-be24-c0e7e32c2d2a")
+		)
+		(pin "3"
+			(uuid "54915925-1f7a-4f7c-8dd8-367f908f4881")
+		)
+		(instances
+			(project "CleverCoffee_ESP32S3_Dev"
+				(path "/2be5fe1d-8984-4886-9869-574e52619ff9"
+					(reference "Temp1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x06")
+		(at 30.48 160.02 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5041aae2-3e02-4f90-8285-06c62c121b1e")
+		(property "Reference" "Scale1"
+			(at 27.94 160.0199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x06"
+			(at 27.94 162.5599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 30.48 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "c90072d4-4956-4ba4-a7a4-908751282542")
+		)
+		(pin "6"
+			(uuid "7bc7fd63-62b4-40f7-9d31-7a5c41e530ce")
+		)
+		(pin "2"
+			(uuid "ccd98616-5846-4b95-a65c-b5323fe0d874")
+		)
+		(pin "1"
+			(uuid "9d0ad02c-3ee8-4b79-8d33-8deb6dc93830")
+		)
+		(pin "3"
+			(uuid "af23ef5e-bea6-41a7-881c-16a9c1516f15")
+		)
+		(pin "5"
+			(uuid "89ddad3c-e79a-4d0b-9781-37c8ecf53629")
+		)
+		(instances
+			(project "CleverCoffee_ESP32S3_Dev"
+				(path "/2be5fe1d-8984-4886-9869-574e52619ff9"
+					(reference "Scale1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 226.06 151.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5077787e-34e6-44a1-819f-9eea00d00c74")
+		(property "Reference" "#PWR014"
+			(at 226.06 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 226.06 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 226.06 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "59656d9e-416a-4770-8c52-4fdcc434d069")
+		)
+		(instances
+			(project "CleverCoffee_ESP32S3_Dev"
+				(path "/2be5fe1d-8984-4886-9869-574e52619ff9"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
-		(at 48.26 78.74 90)
+		(at 48.26 52.07 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4029,7 +6958,7 @@
 		(fields_autoplaced yes)
 		(uuid "513a4a9b-2b4a-4686-9e05-e6a67051709a")
 		(property "Reference" "R2"
-			(at 48.26 72.39 90)
+			(at 48.26 45.72 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4039,7 +6968,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 48.26 74.93 90)
+			(at 48.26 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4049,7 +6978,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 80.518 90)
+			(at 48.26 53.848 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4060,7 +6989,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 48.26 78.74 0)
+			(at 48.26 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4071,7 +7000,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 48.26 78.74 0)
+			(at 48.26 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4097,8 +7026,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:Q_NMOS_DGS")
-		(at 148.59 93.98 0)
+		(lib_id "power:GND")
+		(at 161.29 114.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4107,31 +7036,30 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "53f14bf0-af40-4ce6-b411-2632eb77e7e8")
-		(property "Reference" "Q2"
-			(at 154.94 92.7099 0)
+		(uuid "52062433-107e-415f-bf65-c2d1ca6e4ed0")
+		(property "Reference" "#PWR031"
+			(at 161.29 120.65 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "Q_NMOS_DGS"
-			(at 154.94 95.2499 0)
+		(property "Value" "GND"
+			(at 161.29 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
-			(at 153.67 91.44 0)
+		(property "Footprint" ""
+			(at 161.29 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4142,7 +7070,164 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 93.98 0)
+			(at 161.29 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 161.29 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e0813697-1ad7-4baf-9b03-8b154f4d1cc4")
+		)
+		(instances
+			(project "CleverCoffee_ESP32S3_Dev"
+				(path "/2be5fe1d-8984-4886-9869-574e52619ff9"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 34.29 80.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5281965e-c212-4d1f-8447-b893cde1dace")
+		(property "Reference" "#PWR011"
+			(at 34.29 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 34.29 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 34.29 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fbd93b6a-8195-4a1a-ae68-3eddc9e7dce0")
+		)
+		(instances
+			(project "CleverCoffee_ESP32S3_Dev"
+				(path "/2be5fe1d-8984-4886-9869-574e52619ff9"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:Q_NMOS_DGS")
+		(at 157.48 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53f14bf0-af40-4ce6-b411-2632eb77e7e8")
+		(property "Reference" "Q2"
+			(at 163.83 80.0099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Q_NMOS_DGS"
+			(at 163.83 82.5499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
+			(at 162.56 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4153,7 +7238,7 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, drain/gate/source"
-			(at 148.59 93.98 0)
+			(at 157.48 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4183,7 +7268,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 100.33 87.63 0)
+		(at 109.22 74.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4194,7 +7279,7 @@
 		(fields_autoplaced yes)
 		(uuid "5895d91f-eae6-4d59-941d-0e8bd49b05b5")
 		(property "Reference" "#PWR08"
-			(at 100.33 91.44 0)
+			(at 109.22 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4205,7 +7290,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 100.33 82.55 0)
+			(at 109.22 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4215,7 +7300,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 87.63 0)
+			(at 109.22 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4226,7 +7311,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 87.63 0)
+			(at 109.22 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4237,7 +7322,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 100.33 87.63 0)
+			(at 109.22 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4261,7 +7346,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 38.1 67.31 0)
+		(at 104.14 58.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4269,10 +7354,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5c3cea0f-3f6d-4d03-ba18-cbe89b70554d")
-		(property "Reference" "#PWR04"
-			(at 38.1 71.12 0)
+		(uuid "59978311-332e-472c-8c7b-c715715eed0a")
+		(property "Reference" "#PWR019"
+			(at 104.14 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4283,7 +7367,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 38.1 62.23 0)
+			(at 108.966 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4293,7 +7377,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 67.31 0)
+			(at 104.14 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4304,7 +7388,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 67.31 0)
+			(at 104.14 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4315,7 +7399,85 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 38.1 67.31 0)
+			(at 104.14 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "31609ec8-1ef3-4811-9ea1-500f3158637b")
+		)
+		(instances
+			(project "CleverCoffee_ESP32S3_Dev"
+				(path "/2be5fe1d-8984-4886-9869-574e52619ff9"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 165.1 36.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c3cea0f-3f6d-4d03-ba18-cbe89b70554d")
+		(property "Reference" "#PWR04"
+			(at 165.1 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 165.1 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 165.1 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4332,6 +7494,162 @@
 			(project "CleverCoffee_ESP32S3_Dev"
 				(path "/2be5fe1d-8984-4886-9869-574e52619ff9"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 52.07 160.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63115b3f-824a-413c-9f25-4b7e1df173de")
+		(property "Reference" "#PWR022"
+			(at 52.07 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 52.07 165.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 52.07 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a72e8513-9df5-4ca8-b5a2-33347b4c22c2")
+		)
+		(instances
+			(project "CleverCoffee_ESP32S3_Dev"
+				(path "/2be5fe1d-8984-4886-9869-574e52619ff9"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 102.87 160.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ffa4b46-b348-4889-a2d4-53c34de43eab")
+		(property "Reference" "#PWR021"
+			(at 102.87 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 102.87 165.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 102.87 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ebb46ea1-4ad6-4489-806d-27c4a9fe14f6")
+		)
+		(instances
+			(project "CleverCoffee_ESP32S3_Dev"
+				(path "/2be5fe1d-8984-4886-9869-574e52619ff9"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -4416,8 +7734,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:Q_NMOS_DGS")
-		(at 113.03 93.98 0)
+		(lib_id "power:GND")
+		(at 100.33 59.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4426,31 +7744,30 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7502ed18-4d60-4087-b185-54fd0fbe12a4")
-		(property "Reference" "Q1"
-			(at 119.38 92.7099 0)
+		(uuid "7279cab2-44db-408a-9c3b-a0f4c26854c8")
+		(property "Reference" "#PWR017"
+			(at 100.33 66.04 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "Q_NMOS_DGS"
-			(at 119.38 95.2499 0)
+		(property "Value" "GND"
+			(at 100.33 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
-			(at 118.11 91.44 0)
+		(property "Footprint" ""
+			(at 100.33 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4461,7 +7778,86 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 93.98 0)
+			(at 100.33 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 100.33 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d4586c8e-de9e-4b2c-bd27-0746ad29975c")
+		)
+		(instances
+			(project "CleverCoffee_ESP32S3_Dev"
+				(path "/2be5fe1d-8984-4886-9869-574e52619ff9"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:Q_NMOS_DGS")
+		(at 121.92 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7502ed18-4d60-4087-b185-54fd0fbe12a4")
+		(property "Reference" "Q1"
+			(at 128.27 80.0099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Q_NMOS_DGS"
+			(at 128.27 82.5499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
+			(at 127 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4472,7 +7868,7 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, drain/gate/source"
-			(at 113.03 93.98 0)
+			(at 121.92 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4502,7 +7898,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 48.26 101.6 90)
+		(at 54.61 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4513,27 +7909,29 @@
 		(fields_autoplaced yes)
 		(uuid "772ff3d3-9c7e-4cff-838a-fba1cb6f9a07")
 		(property "Reference" "R4"
-			(at 48.26 95.25 90)
+			(at 57.15 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "4k7"
-			(at 48.26 97.79 90)
+			(at 57.15 90.1699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 103.378 90)
+			(at 52.832 88.9 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4544,7 +7942,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 48.26 101.6 0)
+			(at 54.61 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4555,7 +7953,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 48.26 101.6 0)
+			(at 54.61 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4582,7 +7980,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 38.1 87.63 0)
+		(at 55.88 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4593,7 +7991,7 @@
 		(fields_autoplaced yes)
 		(uuid "78b2b118-3341-441b-94c2-359f12845a20")
 		(property "Reference" "#PWR06"
-			(at 38.1 91.44 0)
+			(at 55.88 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4604,7 +8002,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 38.1 82.55 0)
+			(at 55.88 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4614,7 +8012,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 87.63 0)
+			(at 55.88 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4625,7 +8023,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 87.63 0)
+			(at 55.88 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4636,7 +8034,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 38.1 87.63 0)
+			(at 55.88 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4659,8 +8057,9 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 139.7 87.63 0)
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 30.48 125.73 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4668,31 +8067,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "80bd569b-748c-4a39-8cb7-a6e64ef64f48")
-		(property "Reference" "#PWR09"
-			(at 139.7 91.44 0)
-			(hide yes)
+		(uuid "7a5ae3c4-380c-4e04-94db-7dda334d1647")
+		(property "Reference" "Pump"
+			(at 27.94 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 139.7 82.55 0)
+		(property "Value" "Conn_01x04"
+			(at 27.94 128.2699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 87.63 0)
+			(at 30.48 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4703,7 +8102,94 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 87.63 0)
+			(at 30.48 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 30.48 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5d322971-c000-4cd3-8654-cc1602526326")
+		)
+		(pin "3"
+			(uuid "88dcea24-0d0c-453c-8a9b-7894ffa4b6c8")
+		)
+		(pin "4"
+			(uuid "2de8d659-0d18-4f34-91d4-d799a6aa2983")
+		)
+		(pin "2"
+			(uuid "76ad9ae4-ed2c-4a19-a24c-fb03fda68d53")
+		)
+		(instances
+			(project "CleverCoffee_ESP32S3_Dev"
+				(path "/2be5fe1d-8984-4886-9869-574e52619ff9"
+					(reference "Pump")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 54.61 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7cfe846b-b02b-4573-9ca6-affc191f81df")
+		(property "Reference" "#PWR013"
+			(at 54.61 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 54.61 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4714,7 +8200,240 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 139.7 87.63 0)
+			(at 54.61 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "313c899c-ca37-488a-b2bf-a60b6823803d")
+		)
+		(instances
+			(project "CleverCoffee_ESP32S3_Dev"
+				(path "/2be5fe1d-8984-4886-9869-574e52619ff9"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 158.75 59.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d9a5db8-dcf4-4ae7-b6a1-b650e59494e0")
+		(property "Reference" "#PWR018"
+			(at 158.75 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 158.75 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 158.75 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f339b93b-3992-48e2-b083-bc9b8a172b3f")
+		)
+		(instances
+			(project "CleverCoffee_ESP32S3_Dev"
+				(path "/2be5fe1d-8984-4886-9869-574e52619ff9"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 96.52 154.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8043ce47-681a-49da-a677-7651acbd45b5")
+		(property "Reference" "#PWR026"
+			(at 96.52 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 96.012 150.368 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 96.52 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7d10508d-7118-4c6c-bfef-d765f33157c5")
+		)
+		(instances
+			(project "CleverCoffee_ESP32S3_Dev"
+				(path "/2be5fe1d-8984-4886-9869-574e52619ff9"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 148.59 74.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80bd569b-748c-4a39-8cb7-a6e64ef64f48")
+		(property "Reference" "#PWR09"
+			(at 148.59 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 148.59 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 148.59 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4737,8 +8456,87 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 35.56 130.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8458171d-3387-475f-a304-3f7e2faa5185")
+		(property "Reference" "#PWR027"
+			(at 35.56 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 35.56 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 35.56 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "010e93ac-6e17-40f7-9072-ee3bc6fa8d40")
+		)
+		(instances
+			(project "CleverCoffee_ESP32S3_Dev"
+				(path "/2be5fe1d-8984-4886-9869-574e52619ff9"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
-		(at 48.26 128.27 90)
+		(at 149.86 171.45 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4749,7 +8547,7 @@
 		(fields_autoplaced yes)
 		(uuid "8845bcaa-73b2-4b5a-a031-ea21aea1b000")
 		(property "Reference" "R5"
-			(at 48.26 121.92 90)
+			(at 149.86 165.1 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4759,7 +8557,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 48.26 124.46 90)
+			(at 149.86 167.64 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4769,7 +8567,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 130.048 90)
+			(at 149.86 173.228 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4780,7 +8578,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 48.26 128.27 0)
+			(at 149.86 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4791,7 +8589,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 48.26 128.27 0)
+			(at 149.86 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4817,8 +8615,339 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 138.43 171.45 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8dd16cbd-fb3d-4285-8320-4a733425a59f")
+		(property "Reference" "SteamWaterLEDs"
+			(at 135.89 171.4499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 135.89 173.9899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 138.43 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "82b568ff-7379-4763-961b-fbaebc14a714")
+		)
+		(pin "2"
+			(uuid "26f10c9a-4143-4dd4-b5e4-23743b85ec29")
+		)
+		(instances
+			(project "CleverCoffee_ESP32S3_Dev"
+				(path "/2be5fe1d-8984-4886-9869-574e52619ff9"
+					(reference "SteamWaterLEDs")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 163.83 54.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e103fff-6b90-4e1e-9115-8d2ec0940cef")
+		(property "Reference" "5VI2C"
+			(at 166.37 54.6099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 166.37 57.1499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 163.83 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5d322971-c000-4cd3-8654-cc1602526326")
+		)
+		(pin "3"
+			(uuid "88dcea24-0d0c-453c-8a9b-7894ffa4b6c8")
+		)
+		(pin "4"
+			(uuid "2de8d659-0d18-4f34-91d4-d799a6aa2983")
+		)
+		(pin "2"
+			(uuid "76ad9ae4-ed2c-4a19-a24c-fb03fda68d53")
+		)
+		(instances
+			(project "CleverCoffee_ESP32S3_Dev"
+				(path "/2be5fe1d-8984-4886-9869-574e52619ff9"
+					(reference "5VI2C")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 177.8 25.4 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "914fb8dc-28a0-4dae-a405-fc952c69df06")
+		(property "Reference" "SPI"
+			(at 175.26 25.3999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 175.26 27.9399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 177.8 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "82b568ff-7379-4763-961b-fbaebc14a714")
+		)
+		(pin "2"
+			(uuid "26f10c9a-4143-4dd4-b5e4-23743b85ec29")
+		)
+		(instances
+			(project "CleverCoffee_ESP32S3_Dev"
+				(path "/2be5fe1d-8984-4886-9869-574e52619ff9"
+					(reference "SPI")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 34.29 29.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93ed0641-3029-40a2-9b35-687d87933a09")
+		(property "Reference" "#PWR016"
+			(at 34.29 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 34.29 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 34.29 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "afc6bcde-8a22-461d-8a6e-b69b69a459e9")
+		)
+		(instances
+			(project "CleverCoffee_ESP32S3_Dev"
+				(path "/2be5fe1d-8984-4886-9869-574e52619ff9"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
-		(at 48.26 88.9 90)
+		(at 48.26 71.12 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4829,7 +8958,7 @@
 		(fields_autoplaced yes)
 		(uuid "99f13c77-13c6-41ea-87df-3cf00578562f")
 		(property "Reference" "R3"
-			(at 48.26 82.55 90)
+			(at 48.26 64.77 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4839,7 +8968,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 48.26 85.09 90)
+			(at 48.26 67.31 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4849,7 +8978,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 90.678 90)
+			(at 48.26 72.898 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4860,7 +8989,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 48.26 88.9 0)
+			(at 48.26 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4871,7 +9000,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 48.26 88.9 0)
+			(at 48.26 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4897,8 +9026,572 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 138.43 24.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9c15aa31-6730-46b3-bf59-68d57fab955c")
+		(property "Reference" "#PWR032"
+			(at 138.43 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 138.176 20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 138.43 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ff3a9175-ddc8-4de8-b05c-937ba1bed306")
+		)
+		(instances
+			(project "CleverCoffee_ESP32S3_Dev"
+				(path "/2be5fe1d-8984-4886-9869-574e52619ff9"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 29.21 97.79 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a010da4f-d2d3-4bfe-a317-637e9d87f887")
+		(property "Reference" "Flow"
+			(at 26.67 96.5199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 26.67 99.0599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 29.21 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6df15a4a-4fdb-4edc-b191-0d06decfaaae")
+		)
+		(pin "1"
+			(uuid "7ea95dbc-0956-4c08-be24-c0e7e32c2d2a")
+		)
+		(pin "3"
+			(uuid "54915925-1f7a-4f7c-8dd8-367f908f4881")
+		)
+		(instances
+			(project "CleverCoffee_ESP32S3_Dev"
+				(path "/2be5fe1d-8984-4886-9869-574e52619ff9"
+					(reference "Flow")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 105.41 125.73 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a215ddb9-7d7a-48e5-977b-5d9ec22b4f65")
+		(property "Reference" "Pump2Heater2"
+			(at 102.87 125.7299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 102.87 128.2699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 105.41 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "82b568ff-7379-4763-961b-fbaebc14a714")
+		)
+		(pin "2"
+			(uuid "26f10c9a-4143-4dd4-b5e4-23743b85ec29")
+		)
+		(instances
+			(project "CleverCoffee_ESP32S3_Dev"
+				(path "/2be5fe1d-8984-4886-9869-574e52619ff9"
+					(reference "Pump2Heater2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 102.87 157.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a399d264-3ef1-485a-8977-38c613dfe8d4")
+		(property "Reference" "#PWR024"
+			(at 102.87 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 102.87 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 102.87 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4704e301-43f0-48b8-a7ff-7c2a00cdaccb")
+		)
+		(instances
+			(project "CleverCoffee_ESP32S3_Dev"
+				(path "/2be5fe1d-8984-4886-9869-574e52619ff9"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 52.07 157.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a732b649-db5b-4ea0-bdc4-887ef4ee9179")
+		(property "Reference" "#PWR023"
+			(at 52.07 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 52.07 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 52.07 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1d866afe-54f1-41fa-be81-df9df6ee0589")
+		)
+		(instances
+			(project "CleverCoffee_ESP32S3_Dev"
+				(path "/2be5fe1d-8984-4886-9869-574e52619ff9"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 138.43 151.13 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "afe23234-14cb-4ff2-9f73-8e81cbf5b366")
+		(property "Reference" "BrewStatusLEDs"
+			(at 135.89 151.1299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 135.89 153.6699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 138.43 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "82b568ff-7379-4763-961b-fbaebc14a714")
+		)
+		(pin "2"
+			(uuid "26f10c9a-4143-4dd4-b5e4-23743b85ec29")
+		)
+		(instances
+			(project "CleverCoffee_ESP32S3_Dev"
+				(path "/2be5fe1d-8984-4886-9869-574e52619ff9"
+					(reference "BrewStatusLEDs")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 105.41 110.49 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b0fe5077-ff9f-4772-85e2-41ed98ab370e")
+		(property "Reference" "Heater"
+			(at 102.87 110.4899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 102.87 113.0299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 105.41 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "82b568ff-7379-4763-961b-fbaebc14a714")
+		)
+		(pin "2"
+			(uuid "26f10c9a-4143-4dd4-b5e4-23743b85ec29")
+		)
+		(instances
+			(project "CleverCoffee_ESP32S3_Dev"
+				(path "/2be5fe1d-8984-4886-9869-574e52619ff9"
+					(reference "Heater")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
-		(at 105.41 128.27 90)
+		(at 149.86 151.13 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4909,7 +9602,7 @@
 		(fields_autoplaced yes)
 		(uuid "b59744b1-dc17-42ce-aa08-9a5d560e958c")
 		(property "Reference" "R7"
-			(at 105.41 121.92 90)
+			(at 149.86 144.78 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4919,7 +9612,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 105.41 124.46 90)
+			(at 149.86 147.32 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4929,7 +9622,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 105.41 130.048 90)
+			(at 149.86 152.908 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4940,7 +9633,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 105.41 128.27 0)
+			(at 149.86 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4951,7 +9644,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 105.41 128.27 0)
+			(at 149.86 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4977,8 +9670,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:0")
-		(at 54.61 114.3 0)
+		(lib_id "power:GND")
+		(at 110.49 113.03 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4987,9 +9680,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c438738c-347c-4c4d-b4b0-5eb305c6019a")
-		(property "Reference" "#GND04"
-			(at 54.61 119.38 0)
+		(uuid "b6204c79-5837-49cf-9b69-572a5e0d8a53")
+		(property "Reference" "#PWR029"
+			(at 110.49 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4999,8 +9692,8 @@
 				)
 			)
 		)
-		(property "Value" "0"
-			(at 54.61 111.76 0)
+		(property "Value" "GND"
+			(at 110.49 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5010,7 +9703,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 114.3 0)
+			(at 110.49 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5020,8 +9713,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
-			(at 54.61 124.46 0)
+		(property "Datasheet" ""
+			(at 110.49 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5031,8 +9724,8 @@
 				)
 			)
 		)
-		(property "Description" "0V reference potential for simulation"
-			(at 54.61 121.92 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 110.49 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5043,12 +9736,168 @@
 			)
 		)
 		(pin "1"
-			(uuid "e93afdf8-4edc-40b2-b929-0ac43d7a416a")
+			(uuid "5e118ef2-4bf0-4e83-86ef-1f502282a7e2")
 		)
 		(instances
 			(project "CleverCoffee_ESP32S3_Dev"
 				(path "/2be5fe1d-8984-4886-9869-574e52619ff9"
-					(reference "#GND04")
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 54.61 100.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b777d88a-5114-46db-9162-98f2b113ccd8")
+		(property "Reference" "#PWR012"
+			(at 54.61 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 54.61 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 54.61 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "90e07be5-e961-4624-811d-8c59a39a1af8")
+		)
+		(instances
+			(project "CleverCoffee_ESP32S3_Dev"
+				(path "/2be5fe1d-8984-4886-9869-574e52619ff9"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 156.21 27.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b91d55fd-b4e4-4710-83e9-9872a57943e2")
+		(property "Reference" "#PWR033"
+			(at 156.21 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 156.21 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 156.21 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "214609fc-c54d-4797-8921-ea7dee24590c")
+		)
+		(instances
+			(project "CleverCoffee_ESP32S3_Dev"
+				(path "/2be5fe1d-8984-4886-9869-574e52619ff9"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -5056,7 +9905,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 54.61 105.41 0)
+		(at 54.61 96.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5067,7 +9916,7 @@
 		(fields_autoplaced yes)
 		(uuid "ce08087d-eb76-4b8c-8cbb-d16fcfd1b62e")
 		(property "Reference" "C1"
-			(at 58.42 104.1399 0)
+			(at 58.42 95.2499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5078,7 +9927,7 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 58.42 106.6799 0)
+			(at 58.42 97.7899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5089,7 +9938,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.5752 109.22 0)
+			(at 55.5752 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5100,7 +9949,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 54.61 105.41 0)
+			(at 54.61 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5111,7 +9960,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 54.61 105.41 0)
+			(at 54.61 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5137,8 +9986,9 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 38.1 77.47 0)
+		(lib_id "Connector_Generic:Conn_01x05")
+		(at 201.93 148.59 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5146,31 +9996,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dfd216cc-124b-40df-8586-e742d9913196")
-		(property "Reference" "#PWR05"
-			(at 38.1 81.28 0)
-			(hide yes)
+		(uuid "d6fd6174-7218-4df9-beae-72d3f47069d3")
+		(property "Reference" "Switches"
+			(at 199.39 147.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 38.1 72.39 0)
+		(property "Value" "Conn_01x05"
+			(at 199.39 149.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 77.47 0)
+			(at 201.93 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5181,7 +10031,270 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 77.47 0)
+			(at 201.93 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 201.93 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "60184a8e-ef27-4d31-90f0-fad30c264938")
+		)
+		(pin "3"
+			(uuid "6b1be86a-f612-4330-9f5d-a3e907efdd34")
+		)
+		(pin "1"
+			(uuid "1bea28cf-7e26-455f-89a6-b3f7c18e5915")
+		)
+		(pin "5"
+			(uuid "d5bbddf6-75b5-47ea-8f41-e07214be8b9f")
+		)
+		(pin "2"
+			(uuid "6aa0dc75-32e6-44cb-8f50-eb60a1a568c3")
+		)
+		(instances
+			(project "CleverCoffee_ESP32S3_Dev"
+				(path "/2be5fe1d-8984-4886-9869-574e52619ff9"
+					(reference "Switches")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 156.21 111.76 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d9e3d21b-aa8f-43c8-9240-60f578f3534b")
+		(property "Reference" "3WV"
+			(at 153.67 110.4899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 153.67 113.0299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 156.21 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6df15a4a-4fdb-4edc-b191-0d06decfaaae")
+		)
+		(pin "1"
+			(uuid "7ea95dbc-0956-4c08-be24-c0e7e32c2d2a")
+		)
+		(pin "3"
+			(uuid "54915925-1f7a-4f7c-8dd8-367f908f4881")
+		)
+		(instances
+			(project "CleverCoffee_ESP32S3_Dev"
+				(path "/2be5fe1d-8984-4886-9869-574e52619ff9"
+					(reference "3WV")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 129.54 27.94 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dc3ee33e-98aa-4520-b0f7-668dab1aa5b7")
+		(property "Reference" "Serial1"
+			(at 127 27.9399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 127 30.4799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 129.54 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3ffda0da-fbe0-41e9-bbe8-7a153f146acd")
+		)
+		(pin "3"
+			(uuid "4dc8ddaa-5956-4322-ba8d-9899ab60cde8")
+		)
+		(pin "4"
+			(uuid "ab51189a-e169-4a82-8ca1-581573b1a3f1")
+		)
+		(pin "2"
+			(uuid "124f7719-c251-4b23-8d00-45ef43f1c288")
+		)
+		(instances
+			(project "CleverCoffee_ESP32S3_Dev"
+				(path "/2be5fe1d-8984-4886-9869-574e52619ff9"
+					(reference "Serial1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 57.15 52.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dfd216cc-124b-40df-8586-e742d9913196")
+		(property "Reference" "#PWR05"
+			(at 57.15 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 57.15 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5192,7 +10305,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 38.1 77.47 0)
+			(at 57.15 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5209,6 +10322,84 @@
 			(project "CleverCoffee_ESP32S3_Dev"
 				(path "/2be5fe1d-8984-4886-9869-574e52619ff9"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 40.64 24.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6453322-2619-4336-9ebc-646130c8dcff")
+		(property "Reference" "#PWR015"
+			(at 40.64 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 40.64 19.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 40.64 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d22260ec-8220-4ee7-ba5e-e3654d52846d")
+		)
+		(instances
+			(project "CleverCoffee_ESP32S3_Dev"
+				(path "/2be5fe1d-8984-4886-9869-574e52619ff9"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -5293,8 +10484,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 64.77 26.67 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ec14d27c-6b7e-413a-85d8-4d66b80e9b2e")
+		(property "Reference" "Encoder"
+			(at 62.23 25.3999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 62.23 27.9399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 64.77 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6df15a4a-4fdb-4edc-b191-0d06decfaaae")
+		)
+		(pin "1"
+			(uuid "7ea95dbc-0956-4c08-be24-c0e7e32c2d2a")
+		)
+		(pin "3"
+			(uuid "54915925-1f7a-4f7c-8dd8-367f908f4881")
+		)
+		(instances
+			(project "CleverCoffee_ESP32S3_Dev"
+				(path "/2be5fe1d-8984-4886-9869-574e52619ff9"
+					(reference "Encoder")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
-		(at 105.41 137.16 90)
+		(at 149.86 160.02 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5305,7 +10581,7 @@
 		(fields_autoplaced yes)
 		(uuid "ecf56786-c1c7-487c-b3c8-850dd6ba11b7")
 		(property "Reference" "R8"
-			(at 105.41 130.81 90)
+			(at 149.86 153.67 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5315,7 +10591,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 105.41 133.35 90)
+			(at 149.86 156.21 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5325,7 +10601,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 105.41 138.938 90)
+			(at 149.86 161.798 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5336,7 +10612,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 105.41 137.16 0)
+			(at 149.86 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5347,7 +10623,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 105.41 137.16 0)
+			(at 149.86 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5373,8 +10649,102 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x06")
+		(at 82.55 160.02 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ee301e18-dbc2-4f1f-b168-90a1f62d9b3c")
+		(property "Reference" "Scale2"
+			(at 80.01 160.0199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x06"
+			(at 80.01 162.5599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 82.55 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "c90072d4-4956-4ba4-a7a4-908751282542")
+		)
+		(pin "6"
+			(uuid "7bc7fd63-62b4-40f7-9d31-7a5c41e530ce")
+		)
+		(pin "2"
+			(uuid "ccd98616-5846-4b95-a65c-b5323fe0d874")
+		)
+		(pin "1"
+			(uuid "9d0ad02c-3ee8-4b79-8d33-8deb6dc93830")
+		)
+		(pin "3"
+			(uuid "af23ef5e-bea6-41a7-881c-16a9c1516f15")
+		)
+		(pin "5"
+			(uuid "89ddad3c-e79a-4d0b-9781-37c8ecf53629")
+		)
+		(instances
+			(project "CleverCoffee_ESP32S3_Dev"
+				(path "/2be5fe1d-8984-4886-9869-574e52619ff9"
+					(reference "Scale2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
-		(at 48.26 68.58 90)
+		(at 175.26 38.1 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5385,7 +10755,7 @@
 		(fields_autoplaced yes)
 		(uuid "ef287be0-6b85-4ef1-a250-ee7641a7cb6f")
 		(property "Reference" "R1"
-			(at 48.26 62.23 90)
+			(at 175.26 31.75 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5395,7 +10765,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 48.26 64.77 90)
+			(at 175.26 34.29 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5405,7 +10775,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 70.358 90)
+			(at 175.26 39.878 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5416,7 +10786,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 48.26 68.58 0)
+			(at 175.26 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5427,7 +10797,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 48.26 68.58 0)
+			(at 175.26 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5447,6 +10817,176 @@
 			(project "CleverCoffee_ESP32S3_Dev"
 				(path "/2be5fe1d-8984-4886-9869-574e52619ff9"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 29.21 26.67 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "efef3ec3-4438-44f1-80f9-e2453a3bf699")
+		(property "Reference" "Tank"
+			(at 26.67 25.3999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 26.67 27.9399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 29.21 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6df15a4a-4fdb-4edc-b191-0d06decfaaae")
+		)
+		(pin "1"
+			(uuid "7ea95dbc-0956-4c08-be24-c0e7e32c2d2a")
+		)
+		(pin "3"
+			(uuid "54915925-1f7a-4f7c-8dd8-367f908f4881")
+		)
+		(instances
+			(project "CleverCoffee_ESP32S3_Dev"
+				(path "/2be5fe1d-8984-4886-9869-574e52619ff9"
+					(reference "Tank")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 29.21 58.42 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fbb06c58-0404-486a-b7e4-fbad548094bc")
+		(property "Reference" "Temp"
+			(at 26.67 57.1499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 26.67 59.6899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 29.21 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6df15a4a-4fdb-4edc-b191-0d06decfaaae")
+		)
+		(pin "1"
+			(uuid "7ea95dbc-0956-4c08-be24-c0e7e32c2d2a")
+		)
+		(pin "3"
+			(uuid "54915925-1f7a-4f7c-8dd8-367f908f4881")
+		)
+		(instances
+			(project "CleverCoffee_ESP32S3_Dev"
+				(path "/2be5fe1d-8984-4886-9869-574e52619ff9"
+					(reference "Temp")
 					(unit 1)
 				)
 			)
